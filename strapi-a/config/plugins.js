@@ -1,6 +1,6 @@
 module.exports = {
-  'smart-media-upload': {
+  'custom-import-export': {
     enabled: true,
-    resolve: './src/plugins/smart-media-upload'
+    resolve: '../custom-import-export'
   }
 }
