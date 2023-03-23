@@ -1,6 +1,6 @@
 module.exports = {
-  'custom-import-export': {
+  'import-export-entries': {
     enabled: true,
-    resolve: '../custom-import-export'
+    resolve: '../import-export-entries'
   }
 }

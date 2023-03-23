@@ -1,4 +1,5 @@
 import { Box } from '@strapi/design-system/Box';
+import { Checkbox } from '@strapi/design-system';
 import { Option, Select } from '@strapi/design-system/Select';
 import { Tab, TabGroup, TabPanel, TabPanels, Tabs } from '@strapi/design-system/Tabs';
 import { Typography } from '@strapi/design-system/Typography';
@@ -60,6 +61,11 @@ export const ImportEditor = ({ file, data, dataFormat, slug, onDataChanged, onOp
                   </Option>
                 ))}
               </Select>
+            </Box>
+            <Box color="neutral800" paddingTop={4} paddingBottom={4} background="neutral0">
+              <Checkbox>
+                Match media by filename, not hash or id.
+              </Checkbox>
             </Box>
           </TabPanel>
         </TabPanels>

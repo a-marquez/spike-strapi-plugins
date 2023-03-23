@@ -1,0 +1,36 @@
+{
+	"version": 2,
+	"data": {
+		"plugin::upload.folder": {},
+		"plugin::upload.file": {
+			"5": {
+				"id": 5,
+				"name": "beaker.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "beaker_20ecad5649",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/beaker_20ecad5649.png",
+				"createdAt": "2023-03-22T14:26:13.630Z",
+				"updatedAt": "2023-03-22T14:28:35.527Z",
+				"createdBy": null,
+				"updatedBy": null
+			}
+		},
+		"api::about.about": {
+			"1": {
+				"id": 1,
+				"title": "test",
+				"createdAt": "2023-03-21T04:19:04.431Z",
+				"updatedAt": "2023-03-22T14:34:48.124Z",
+				"publishedAt": null,
+				"image": [
+					5
+				],
+				"createdBy": null,
+				"updatedBy": null
+			}
+		}
+	}
+}

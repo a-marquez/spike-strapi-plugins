@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+     {
+      "name": "strapi-a debug",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceRoot}/strapi-a",
+      "runtimeExecutable": "node",
+      "runtimeVersion":"16.19.1",
+      "runtimeArgs": ["--lazy"],
+      "skipFiles": ["<node_internals>/**"],
+      "sourceMaps": true,
+      "program": "${workspaceRoot}/strapi-a/node_modules/@strapi/strapi/bin/strapi.js",
+      "args": [
+        "develop"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "autoAttachChildProcesses": true,
+      "console": "integratedTerminal"
+     },
+     {
+      "name": "strapi-b debug",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceRoot}/strapi-b",
+      "runtimeExecutable": "node",
+      "runtimeVersion":"16.19.1",
+      "runtimeArgs": ["--lazy"],
+      "skipFiles": ["<node_internals>/**"],
+      "sourceMaps": true,
+      "program": "${workspaceRoot}/strapi-b/node_modules/@strapi/strapi/bin/strapi.js",
+      "args": [
+        "develop"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "autoAttachChildProcesses": true,
+      "console": "integratedTerminal"
+     },
+    ]
+}
